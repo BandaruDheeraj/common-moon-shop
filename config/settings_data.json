@@ -1,12 +1,14 @@
 {
   "current": {
+    "image_overlay_opacity": 30,
     "share_facebook": true,
     "sections": {
       "header": {
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo_max_width": 100,
+          "logo": "shopify:\/\/shop_images\/Logos_DesignElements-03.png",
+          "logo_max_width": 155,
           "main_linklist": "main-menu",
           "message": false,
           "home_page_only": false,
@@ -18,18 +20,25 @@
       "hero-1": {
         "type": "hero",
         "settings": {
+          "image": "shopify:\/\/shop_images\/group.pic.1_1.png",
           "alignment": "center",
           "hero_layout": "full_width",
-          "hero_size": "medium",
+          "hero_size": "large",
           "text_size": "large",
           "title": "Shop",
-          "text": "<p>$25<\/p>",
-          "button_label": ""
+          "text": "",
+          "button_label": "Shop Now",
+          "button_link": "#shopify-section-collection"
         }
       },
       "feature-row": {
         "type": "feature-row",
-        "settings": {}
+        "settings": {
+          "layout": "right",
+          "title": "Who We Are",
+          "text": "<p>We are a 501(c)3 fundraising nonprofit organization that utilizes 100% of profits from selling uniquely designed clothing to empower nonprofit organizations aimed at sustainably breaking the cycle of poverty in the Middle East. In other words, we’re a nonprofit for nonprofits. We help them fundraise in novel ways by tapping into unexplored revenue streams, such as merchandise sales and corporate matching programs.<\/p>",
+          "button_label": ""
+        }
       },
       "feature-columns": {
         "type": "feature-columns",
@@ -75,12 +84,12 @@
       "collection": {
         "type": "collection",
         "settings": {
-          "title": "Shop",
+          "title": "[small height banner img above here]",
           "collection": "frontpage",
           "grid": 3,
           "rows": 2,
           "show_vendor": false,
-          "show_view_all": true
+          "show_view_all": false
         }
       },
       "quotes": {
@@ -154,6 +163,12 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -161,29 +176,23 @@
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "newsletter",
+          "c3ca8252-b1c3-467c-b940-cbf520cdcd11": {
+            "type": "text",
             "settings": {
-              "title": "Newsletter"
-            }
-          },
-          "bb3065b4-3804-4e0f-b644-3f5f39211ec5": {
-            "type": "link_list",
-            "settings": {
-              "title": "Quick links",
-              "menu": "footer"
+              "title": "Contact Us",
+              "text": "<p>Please email support@commonmoon.org for any inquiries, or call (908) 655-2726<\/p>"
             }
           }
         },
         "block_order": [
-          "footer-0",
           "footer-1",
-          "bb3065b4-3804-4e0f-b644-3f5f39211ec5"
+          "footer-0",
+          "c3ca8252-b1c3-467c-b940-cbf520cdcd11"
         ],
         "settings": {
-          "show_payment_icons": false,
-          "color_footer_bg": "#f6f6f6",
-          "color_footer_text": "#333232",
+          "show_payment_icons": true,
+          "color_footer_bg": "#afadd6",
+          "color_footer_text": "#414042",
           "show_locale_selector": false,
           "show_currency_selector": true
         }
@@ -212,7 +221,7 @@
         "settings": {
           "show_quantity_selector": true,
           "show_variant_labels": true,
-          "show_vendor": true,
+          "show_vendor": false,
           "enable_payment_button": true,
           "show_share_buttons": true,
           "media_size": "medium",
@@ -227,10 +236,52 @@
           "heading": "You may also like",
           "show_vendor": false
         }
+      },
+      "1608351936d592085c": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Common_Moon_Banner_1.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "medium",
+          "title": "",
+          "text": "<p><strong>We&#x27;re reinventing shopping with a purpose. 100% of profits are always donated to the active campaign with our parent nonprofit, Project Break The Cycle<\/strong><\/p>",
+          "button_label": "Shop Now",
+          "button_link": "#shopify-section-collection"
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "list",
+          "blog_show_author": true,
+          "blog_show_date": true
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "medium",
+          "title": "Our Mission",
+          "text": "<p>We are a 501(c)3 fundraising nonprofit organization that utilizes 100% of profits from selling uniquely designed clothing to empower nonprofit organizations aimed at sustainably breaking the cycle of poverty in the Middle East. Visit our About page to learn more.<\/p>",
+          "button_label": ""
+        }
+      },
+      "custom-content": {
+        "type": "custom-content",
+        "settings": {
+          "title": "Custom content"
+        }
       }
     },
     "content_for_index": [
       "hero-1",
+      "1608351936d592085c",
       "collection"
     ]
   },
