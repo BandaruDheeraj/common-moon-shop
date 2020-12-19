@@ -277,6 +277,92 @@
         "settings": {
           "title": "Custom content"
         }
+      },
+      "hero-about-1": {
+        "type": "hero-about-1",
+        "settings": {
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-row-about-1": {
+        "type": "feature-row-about-1",
+        "settings": {
+          "layout": "right",
+          "title": "Who We Are",
+          "text": "<p>We are a 501(c)3 fundraising nonprofit organization that utilizes 100% of profits from selling uniquely designed clothing to empower nonprofit organizations aimed at sustainably breaking the cycle of poverty in the Middle East. In other words, we’re a nonprofit for nonprofits. We help them fundraise in novel ways by tapping into unexplored revenue streams, such as merchandise sales and corporate matching programs.<\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-row-about-2": {
+        "type": "feature-row-about-2",
+        "settings": {
+          "layout": "left",
+          "title": "Our Founding Story",
+          "text": "<p>Every two quarters, we partner with a different nonprofit organization to select a campaign that aligns with our mission. Our responsibility is to creatively fundraise in support of these campaigns. Currently, Project Break The Cycle’s main fundraising streams are external merchandise sales and internal corporate matching programs. In our merchandise sales, we design and market unique lines of clothing where 100% of profits are donated to our active campaign (visit our Shop). In our corporate programs, our corporate partners match all employee donations several times over. All donations over the duration of an active campaign (two quarters) go towards that specific campaign.<\/p>",
+          "button_label": ""
+        }
+      },
+      "custom-content-about-1": {
+        "type": "custom-content-about-1",
+        "settings": {
+          "title": "Our Campaigns"
+        }
+      },
+      "feature-row-about-3": {
+        "type": "feature-row-about-3",
+        "settings": {
+          "layout": "right",
+          "title": "How We Do It",
+          "text": "<p>Every two quarters, we partner with a different nonprofit organization to select a campaign that aligns with our mission. Our responsibility is to creatively fundraise in support of these campaigns. Currently, Project Break The Cycle’s main fundraising streams are external merchandise sales and internal corporate matching programs. In our merchandise sales, we design and market unique lines of clothing where 100% of profits are donated to our active campaign (visit our Shop). In our corporate programs, our corporate partners match all employee donations several times over. All donations over the duration of an active campaign (two quarters) go towards that specific campaign.<\/p>",
+          "button_label": ""
+        }
+      },
+      "custom-content-about-2": {
+        "type": "custom-content-about-2",
+        "blocks": {
+          "51fea19b-86f7-469d-b3da-ae61cef714cd": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p>Add 2 sentences here about volunteering artistic talent.<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          },
+          "c0fe2cf3-fbc0-49c5-bc14-11955dde12fe": {
+            "type": "html",
+            "settings": {
+              "code": "<button type=\"button\">Click Me!<\/button>",
+              "width": "25%"
+            }
+          }
+        },
+        "block_order": [
+          "51fea19b-86f7-469d-b3da-ae61cef714cd",
+          "c0fe2cf3-fbc0-49c5-bc14-11955dde12fe"
+        ],
+        "settings": {
+          "title": "Help Us Grow"
+        }
+      },
+      "hero-about-2": {
+        "type": "hero-about-2",
+        "settings": {
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "button_label": ""
+        }
       }
     },
     "content_for_index": [
