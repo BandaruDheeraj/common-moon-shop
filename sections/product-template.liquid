@@ -247,7 +247,7 @@
         >{{ 'products.product.loader_label' | t }}</p>
 
         <div class="product-single__description rte">
-          {{ product.description }}
+          {% include 'tabbed-description' %}
         </div>
 
         {% if section.settings.show_share_buttons %}

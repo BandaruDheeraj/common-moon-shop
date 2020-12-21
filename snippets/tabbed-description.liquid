@@ -1,0 +1,69 @@
+{% comment %}
+<!--
+  Liquid will output content, split on h3s like this:
+  
+  <div class="accordian">          
+    <h5><a href="#free-shipping" data-accordian-action>Free & Fast USA Shipping <span>+</span></a></h5>
+    <p id="free-shipping" data-accordian-target>All orders are shipped through USPS. We pride ourselves on fast delivery. Orders typically arrive within 2-5 business days. You will receive an email with tracking information when your order is ready to ship.</p>
+    <h5><a href="#international-shipping" data-accordian-action>International Shipping <span>+</span></a></h5>
+    <p id="international-shipping" data-accordian-target>International shipping rates vary based on item(s). Shipping rates can be seen on the checkout page. International orders typically arrive within 7-10 business days, but can vary with customs clearance in each country. </p>
+  </div>
+-->
+{% endcomment %}
+
+<div class="accordian">
+  {% assign description_parts = product.description | split: '<h6>' %}
+  {% for part in description_parts %}
+      {% unless part == blank %}
+      {% assign part_parts = part | split: '</h6>' %}
+      {% assign heading_handle = part_parts.first | handle %}
+      <h4><a href="#{{ heading_handle }}" data-accordian-action>{{ part_parts.first }} <span>+</span></a></h4>
+      <p id="{{ heading_handle }}" data-accordian-target>{{ part_parts.last | remove: '<p>' | replace: '</p>','<br><br>' }}</p>
+    {% endunless %}
+  {% endfor %}
+</div>
+
+<script>
+  var lastClick;
+  var accordianActions = document.querySelectorAll('[data-accordian-action]');
+  var accordianTargets = document.querySelectorAll('[data-accordian-target]');
+  
+  var hideTargets = function () {
+    for (var i = 0; i < accordianTargets.length; i++) {
+      var accordianTarget = accordianTargets[i];
+      accordianTarget.style.display = 'none';
+    }
+  };
+  
+  var showTarget = function (targetSelector) {
+    var target = document.querySelector(targetSelector);
+    target.style.display = 'block';
+  };
+  
+  hideTargets();
+  
+  for (var i = 0; i < accordianActions.length; i++) {
+    var accordianAction = accordianActions[i];
+    accordianAction.addEventListener('click', function (e) {
+      e.preventDefault();
+      hideTargets();
+      if (lastClick !== e.currentTarget) {
+        showTarget(e.currentTarget.getAttribute('href'));
+        lastClick = e.currentTarget;
+      } else {
+        lastClick = null;
+      }
+    });
+  }
+  
+</script>
+
+<style>
+  .accordian h4 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .accordian h4 span {
+    float: right;
+  }
+</style>

@@ -1,6 +1,6 @@
 {
   "current": {
-    "image_overlay_opacity": 30,
+    "image_overlay_opacity": 25,
     "share_facebook": true,
     "sections": {
       "header": {
@@ -20,7 +20,7 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/group.pic.1_1.png",
+          "image": "shopify:\/\/shop_images\/Common_Moon_Banner_1.png",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "large",
@@ -241,15 +241,14 @@
         "type": "hero",
         "disabled": true,
         "settings": {
-          "image": "shopify:\/\/shop_images\/Common_Moon_Banner_1.png",
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-12-20_at_11.58.31_AM.png",
           "alignment": "center",
           "hero_layout": "full_width",
-          "hero_size": "large",
+          "hero_size": "small",
           "text_size": "medium",
           "title": "",
-          "text": "<p><strong>We&#x27;re reinventing shopping with a purpose. 100% of profits are always donated to the active campaign with our parent nonprofit, Project Break The Cycle<\/strong><\/p>",
-          "button_label": "Shop Now",
-          "button_link": "#shopify-section-collection"
+          "text": "",
+          "button_label": ""
         }
       },
       "blog-template": {
@@ -281,18 +280,21 @@
       "hero-about-1": {
         "type": "hero-about-1",
         "settings": {
+          "image": "shopify:\/\/shop_images\/GoldBanner.png",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "medium",
           "text_size": "medium",
-          "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-          "button_label": ""
+          "title": "Our Mission",
+          "text": "<p>We are a 501(c)3 fundraising nonprofit organization that utilizes 100% of profits from selling uniquely designed clothing to empower nonprofit organizations aimed at sustainably breaking the cycle of poverty in the Middle East. Visit our About page to learn more.<\/p>",
+          "button_label": "Go to Project Break The Cycle",
+          "button_link": "https:\/\/projectbreakthecycle.com\/"
         }
       },
       "feature-row-about-1": {
         "type": "feature-row-about-1",
         "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-12-21_at_1.02.28_PM.png",
           "layout": "right",
           "title": "Who We Are",
           "text": "<p>We are a 501(c)3 fundraising nonprofit organization that utilizes 100% of profits from selling uniquely designed clothing to empower nonprofit organizations aimed at sustainably breaking the cycle of poverty in the Middle East. In other words, we’re a nonprofit for nonprofits. We help them fundraise in novel ways by tapping into unexplored revenue streams, such as merchandise sales and corporate matching programs.<\/p>",
@@ -302,6 +304,7 @@
       "feature-row-about-2": {
         "type": "feature-row-about-2",
         "settings": {
+          "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
           "layout": "left",
           "title": "Our Founding Story",
           "text": "<p>Every two quarters, we partner with a different nonprofit organization to select a campaign that aligns with our mission. Our responsibility is to creatively fundraise in support of these campaigns. Currently, Project Break The Cycle’s main fundraising streams are external merchandise sales and internal corporate matching programs. In our merchandise sales, we design and market unique lines of clothing where 100% of profits are donated to our active campaign (visit our Shop). In our corporate programs, our corporate partners match all employee donations several times over. All donations over the duration of an active campaign (two quarters) go towards that specific campaign.<\/p>",
@@ -340,7 +343,7 @@
             "type": "html",
             "settings": {
               "code": "<button type=\"button\">Click Me!<\/button>",
-              "width": "25%"
+              "width": "100%"
             }
           }
         },
@@ -363,10 +366,50 @@
           "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
           "button_label": ""
         }
+      },
+      "16085259934bc5f28b": {
+        "type": "slideshow",
+        "blocks": {
+          "16085259934bc5f28b-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/group.pic.1_1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "Shop Sahara Studios Collaboration",
+              "button_link": "http:\/\/google.com"
+            }
+          },
+          "16085259934bc5f28b-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2020-12-21_at_12.47.40_PM.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "Shop Sahara Studios Collaboration",
+              "button_link": "http:\/\/google.com"
+            }
+          }
+        },
+        "block_order": [
+          "16085259934bc5f28b-0",
+          "16085259934bc5f28b-1"
+        ],
+        "settings": {
+          "slideshow_height": "small",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": true,
+          "autorotate_speed": 5
+        }
       }
     },
     "content_for_index": [
       "hero-1",
+      "16085259934bc5f28b",
       "1608351936d592085c",
       "collection"
     ]
