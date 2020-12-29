@@ -109,7 +109,7 @@
           </div>
         {%- endfor -%}
       </div>
-      <div class="slideshow__controls">
+<!--       <div class="slideshow__controls">
         {%- if section.blocks.size > 1 -%}
           {%- assign arrows_width = section.blocks.size | times: 18 | plus: 115 -%}
           <div class="slideshow__arrows"
@@ -130,14 +130,14 @@
             </button>
           {%- endif -%}
         {%- endif -%}
-      </div>
+      </div> -->
     </div>
     <div class="slideshow__text-wrap slideshow__text-wrap--mobile">
       {% if section.blocks.size > 1 %}
-        <div class="slideshow__arrows slideshow__arrows--mobile">
+<!--         <div class="slideshow__arrows slideshow__arrows--mobile">
           <button class="slideshow__arrow slideshow__arrow-left" aria-label="{{ 'sections.slideshow.previous_slide' | t }}">{% include 'icon-chevron-left' %}</button>
           <button class="slideshow__arrow slideshow__arrow-right" aria-label="{{ 'sections.slideshow.next_slide' | t }}">{% include 'icon-chevron-right' %}</button>
-        </div>
+        </div> -->
       {% endif %}
       {%- for block in section.blocks -%}
         {%- assign show_text = false -%}

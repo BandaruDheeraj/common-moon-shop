@@ -20,13 +20,13 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Common_Moon_Banner_1.png",
+          "image": "shopify:\/\/shop_images\/Banner_Opacity_Reduced_aa6ad4c2-6571-4c47-8e9c-44224cd709ce.png",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "large",
           "text_size": "large",
-          "title": "Shop",
-          "text": "",
+          "title": "",
+          "text": "<p>We&#x27;re reinventing shopping with a purpose. 100% profits always donated to the current campaign.<\/p>",
           "button_label": "Shop Now",
           "button_link": "#shopify-section-collection"
         }
@@ -342,7 +342,7 @@
           "c0fe2cf3-fbc0-49c5-bc14-11955dde12fe": {
             "type": "html",
             "settings": {
-              "code": "<button type=\"button\">Click Me!<\/button>",
+              "code": "<a href=\"https:\/\/www.notion.so\/projectbreakthecycle\/Help-Common-Moon-Grow-d2abb8d8ab1644df9beab88c6622774a\"><button type=\"button\">Click Me!<\/button><\/a>",
               "width": "100%"
             }
           }
@@ -403,7 +403,7 @@
           "text_alignment": "center center",
           "show_overlay": true,
           "autorotate": true,
-          "autorotate_speed": 5
+          "autorotate_speed": 3
         }
       }
     },
