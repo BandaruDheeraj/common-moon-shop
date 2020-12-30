@@ -1,5 +1,6 @@
 {
   "current": {
+    "color_text": "#414042",
     "image_overlay_opacity": 25,
     "share_facebook": true,
     "sections": {
@@ -84,7 +85,7 @@
       "collection": {
         "type": "collection",
         "settings": {
-          "title": "[small height banner img above here]",
+          "title": "Shop",
           "collection": "frontpage",
           "grid": 3,
           "rows": 2,
@@ -313,6 +314,18 @@
       },
       "custom-content-about-1": {
         "type": "custom-content-about-1",
+        "blocks": {
+          "860afc41-cb9f-4e55-82c5-6dc7911051a0": {
+            "type": "html",
+            "settings": {
+              "code": "<label for=\"file\">Downloading progress:<\/label>\n<progress id=\"file\" value=\"32\" max=\"100\"> 32% <\/progress>",
+              "width": "66%"
+            }
+          }
+        },
+        "block_order": [
+          "860afc41-cb9f-4e55-82c5-6dc7911051a0"
+        ],
         "settings": {
           "title": "Our Campaigns"
         }
@@ -403,7 +416,7 @@
           "text_alignment": "center center",
           "show_overlay": true,
           "autorotate": true,
-          "autorotate_speed": 3
+          "autorotate_speed": 5
         }
       }
     },

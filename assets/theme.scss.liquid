@@ -1367,6 +1367,17 @@ html {
   }
 }
 
+// This is for title
+.section-header h2 {
+    font-size: 50px;
+}
+// This is for navigation
+.site-nav li {
+    font-size: 25px;
+  	margin-right: 50px;
+/*   	color: #AFADD6; */
+}
+
 /*================ Typography ================*/
 blockquote {
   font-size: em(18px);
@@ -1630,7 +1641,7 @@ li {
 
 .mega-title--large {
   font-size: em($font-size-header + 8);
-
+ 
   @include media-query($medium-up) {
     font-size: em(floor($font-size-header * 2.5));
   }
@@ -1916,14 +1927,16 @@ a[href^="tel"] {
   border-radius: $border-radius;
   padding: $input-padding-top-bottom-small $input-padding-left-right-small;
   background-color: $color-btn-primary;
+/*   background-color: #F3F0EE; */
   color: $color-btn-primary-text;
+/*   color:#AFADD6;  */
   font-family: $font-stack-header;
   font-style: $font-style-header;
   font-weight: $font-weight-header;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   white-space: normal;
-  font-size: $font-size-base - 2;
+  font-size: $font-size-base;
 
   @include media-query($medium-up) {
     padding: $input-padding-top-bottom $input-padding-left-right;
@@ -1931,8 +1944,10 @@ a[href^="tel"] {
 
   &:not([disabled]):hover,
   &:focus {
+/*     color:#AFADD6; */
     color: $color-btn-primary-text;
     background-color: $color-btn-primary-focus;
+/*     background-color: #4D89A9; */
   }
 
   .icon-arrow-right,
@@ -2619,16 +2634,20 @@ textarea {
   &:focus,
   &:not([disabled]):hover {
     .site-nav__label {
-      border-bottom-color: $color-text;
+/*       border-bottom-color: $color-text; */
+      border-bottom-color: #AFADD6;
     }
   }
 }
 
 .site-nav__label {
-  border-bottom: 1px solid transparent;
+  border-bottom: 4px solid transparent;
 
   .site-nav__link--active & {
-    border-bottom-color: $color-text;
+/*     border-bottom-color: $color-text; */
+       border-bottom-color: #AFADD6;
+
+    
   }
 }
 
@@ -2643,7 +2662,8 @@ textarea {
 
   &:focus,
   &:hover {
-    color: $color-text-focus;
+/*     color: $color-text-focus; */
+    color: #AFADD6;
   }
 }
 
@@ -7539,11 +7559,64 @@ $toolbar-height-small: 46px;
   z-index: 2;
 }
 
+
+.hero__inner  .mega-subtitle--large-home p {
+/*   	position: relative; */
+/*   	float: left;   */
+/*   	top: -20px;
+  	left: -350px;
+  margin-right: 50px; */
+/*   left: -250px; */
+/*   text-align: left; */
+/*   left: 122%; */
+/*   margin: 0px!important; */
+  max-width: 250px;
+  display: block;
+  text-align:left;
+  color: #414042;
+  font-weight: bold;
+/*   text-align: justify; */
+}
+
 .hero__btn {
   margin-top: $section-spacing / 2;
-/*   margin-top: 0;
-  margin-left: $section-spacing * 15; */
 }
+
+.hero__btn_home {
+  position: relative;
+  float: right;
+  color: #AFADD6;
+  top:-40px;
+/*   top: -40px;
+  left: 350px; */
+/*   background-color: transparent; */
+  background-color: #414042;
+  font-size: 30px;
+}
+
+/* For mobile */
+@media only screen and (max-width: 749px) {
+.hero__btn_home {
+  margin-top: $section-spacing / 2;
+  float: none;
+  top: 0px;
+  left: 0px;
+  background-color: #414042;
+  color: #AFADD6;
+}
+
+.hero__inner  .mega-subtitle--large-home p {
+  	position: relative;
+  	text-align: center!important;
+/*   text-align: middle; */
+  	margin-left:20px;
+  	display: table-cell;
+    color: #414042;
+  	font-weight: bold;
+}
+  
+}
+
 
 /*================ Fixed width ================*/
 .hero-fixed-width {
@@ -8715,6 +8788,9 @@ $min-height-disclosure: 92px;
     }
   }
 }
+
+  
+
 
 
 
