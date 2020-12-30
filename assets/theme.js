@@ -7563,7 +7563,7 @@ function onYouTubeIframeAPIReady() {
 $(theme.init);
 
 // smooth scrolling added
-$('a[href*="#"]')
+$('a[href*="#shopify-section-collection"]')
 .not('[href="#"]')
 .not('[href="#0"]')
 .click(function(event) {
