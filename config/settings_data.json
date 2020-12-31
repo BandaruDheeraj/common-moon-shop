@@ -3,6 +3,8 @@
     "color_text": "#414042",
     "image_overlay_opacity": 25,
     "share_facebook": true,
+    "social_facebook_link": "https:\/\/www.facebook.com\/projectbreakthecycle\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/projectbreakthecycle\/",
     "sections": {
       "header": {
         "type": "header",
@@ -11,10 +13,10 @@
           "logo": "shopify:\/\/shop_images\/Logos_DesignElements-03.png",
           "logo_max_width": 155,
           "main_linklist": "main-menu",
-          "message": false,
+          "message": true,
           "home_page_only": false,
-          "message_text": "Free Sticker for Every Donation Made At Checkout!",
-          "color_bg": "#000000",
+          "message_text": "New Collection Drops on Jan. 10th",
+          "color_bg": "#afadd6",
           "color_text": "#ffffff"
         }
       },
@@ -180,8 +182,8 @@
           "c3ca8252-b1c3-467c-b940-cbf520cdcd11": {
             "type": "text",
             "settings": {
-              "title": "Contact Us",
-              "text": "<p>Please email support@commonmoon.org for any inquiries, or call (908) 655-2726<\/p>"
+              "title": "Legal",
+              "text": "<p><a title=\"Common Moon\" href=\"https:\/\/commonmoon.org\/\">Common Moon<\/a> is a subgroup of <a title=\"Project Break The Cycle\" href=\"https:\/\/projectbreakthecycle.com\/\" target=\"_blank\">Project Break The Cycle<\/a>, a registered 501(c)3 nonprofit organization in the United States.<\/p>"
             }
           }
         },
