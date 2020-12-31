@@ -15,7 +15,8 @@
           "main_linklist": "main-menu",
           "message": true,
           "home_page_only": false,
-          "message_text": "New Collection Drops on Jan. 10th",
+          "message_text": "New Collection Releases Jan. 10th. Follow our Instagram to stay up-to-date!",
+          "message_link": "https:\/\/www.instagram.com\/projectbreakthecycle\/",
           "color_bg": "#afadd6",
           "color_text": "#ffffff"
         }
@@ -183,7 +184,7 @@
             "type": "text",
             "settings": {
               "title": "Legal",
-              "text": "<p><a title=\"Common Moon\" href=\"https:\/\/commonmoon.org\/\">Common Moon<\/a> is a subgroup of <a title=\"Project Break The Cycle\" href=\"https:\/\/projectbreakthecycle.com\/\" target=\"_blank\">Project Break The Cycle<\/a>, a registered 501(c)3 nonprofit organization in the United States.<\/p>"
+              "text": "<p><a href=\"https:\/\/commonmoon.org\/\" title=\"Common Moon\">Common Moon<\/a> is a subgroup of <a href=\"https:\/\/projectbreakthecycle.com\/\" title=\"Project Break The Cycle\" target=\"_blank\">Project Break The Cycle<\/a>, a registered 501(c)3 nonprofit organization in the United States.<\/p>"
             }
           }
         },
@@ -317,6 +318,16 @@
       "custom-content-about-1": {
         "type": "custom-content-about-1",
         "blocks": {
+          "9e3115f9-2ce2-4559-b732-24d490c32ec3": {
+            "type": "text",
+            "settings": {
+              "title": "Our Campaigns",
+              "text": "",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          },
           "860afc41-cb9f-4e55-82c5-6dc7911051a0": {
             "type": "html",
             "settings": {
@@ -326,10 +337,11 @@
           }
         },
         "block_order": [
+          "9e3115f9-2ce2-4559-b732-24d490c32ec3",
           "860afc41-cb9f-4e55-82c5-6dc7911051a0"
         ],
         "settings": {
-          "title": "Our Campaigns"
+          "title": ""
         }
       },
       "feature-row-about-3": {
@@ -347,8 +359,8 @@
           "51fea19b-86f7-469d-b3da-ae61cef714cd": {
             "type": "text",
             "settings": {
-              "title": "",
-              "text": "<p>Add 2 sentences here about volunteering artistic talent.<\/p>",
+              "title": "Help Us Grow",
+              "text": "<p>We&#x27;re always looking for talented individuals to join our 100% volunteer-led team! Click the button below to learn more about our current opportunities.<\/p>",
               "width": "100%",
               "alignment": "center",
               "align_text": "center"
@@ -357,7 +369,7 @@
           "c0fe2cf3-fbc0-49c5-bc14-11955dde12fe": {
             "type": "html",
             "settings": {
-              "code": "<a href=\"https:\/\/www.notion.so\/projectbreakthecycle\/Help-Common-Moon-Grow-d2abb8d8ab1644df9beab88c6622774a\"><button type=\"button\">Click Me!<\/button><\/a>",
+              "code": "<a href=\"https:\/\/www.notion.so\/projectbreakthecycle\/Help-Common-Moon-Grow-d2abb8d8ab1644df9beab88c6622774a\" target=\"_blank\"><button type=\"button\">Click Me!<\/button><\/a>",
               "width": "100%"
             }
           }
@@ -367,7 +379,7 @@
           "c0fe2cf3-fbc0-49c5-bc14-11955dde12fe"
         ],
         "settings": {
-          "title": "Help Us Grow"
+          "title": ""
         }
       },
       "hero-about-2": {

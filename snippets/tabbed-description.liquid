@@ -17,7 +17,7 @@
       {% unless part == blank %}
       {% assign part_parts = part | split: '</h6>' %}
       {% assign heading_handle = part_parts.first | handle %}
-      <h4><a href="#{{ heading_handle }}" data-accordian-action>{{ part_parts.first }} <span>+</span></a></h4>
+      <a href="#{{ heading_handle }}" data-accordian-action><h4>{{ part_parts.first }} <span>+</span></h4></a>
       <p id="{{ heading_handle }}" data-accordian-target>{{ part_parts.last | remove: '<p>' | replace: '</p>','<br><br>' }}</p>
     {% endunless %}
   {% endfor %}
@@ -38,6 +38,7 @@
   var showTarget = function (targetSelector) {
     var target = document.querySelector(targetSelector);
     target.style.display = 'block';
+    // do something here to make the plus sign a minus sign and vice versa
   };
   
   hideTargets();

@@ -1391,6 +1391,7 @@ blockquote {
     border-width: 1px 0;
     border-style: solid;
     padding: 30px 0;
+/*     padding: 0px 0; */
     margin-bottom: $gutter-site / 2;
   }
 
@@ -2746,10 +2747,26 @@ textarea {
 .page-width {
   padding-left: $gutter-site;
   padding-right: $gutter-site;
+/*   padding-left: 0px;
+  padding-right: 0px; */
+  
+  //page width
 
   @include media-query($small) {
     padding-left: $gutter-site-mobile;
     padding-right: $gutter-site-mobile;
+  }
+}
+
+.full-screen-baby {
+  padding-left: 0px;
+  padding-right: 0px;
+  
+  //page width
+
+  @include media-query($small) {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
