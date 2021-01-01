@@ -45,7 +45,16 @@
           {% include 'image-style', image: block.settings.image, height: max_height, wrapper_id: img_wrapper_id, img_id: img_id %}
         {% endunless %}
       {% endif %}
-
+    
+<!--     <div>
+      <h1>Our Campaigns</h1>
+      	{{ 'gabby.lynne.sarah.png' | asset_url | img_tag: 'Logo', "img-campaign" }}
+      <p> </p>
+      	<label for="file">Downloading progress:</label>
+		<progress id="file" value="32" max="100"> 32% </progress>
+	</div>
+     -->
+    
       <div class="custom__item custom__item--{{ block.type }} custom__item--{{ block.id }} {{ block_width_mobile }} {{ block_width }}{% if block.settings.alignment %} align--{{ block.settings.alignment }}{% endif %}" {{ block.shopify_attributes }}>
         <div class="custom__item-inner custom__item-inner--{{ block.type }}"{% if block.type == 'image' %} id="{{ img_wrapper_id }}"{% endif %}>
           {% case block.type %}

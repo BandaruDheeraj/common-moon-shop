@@ -7608,7 +7608,7 @@ $toolbar-height-small: 46px;
   float: right;
   color: #AFADD6;
   top:-60px;
-  background-color: #414042;
+  background-color: transparent;
   font-size: 30px;
 }
 
@@ -8533,7 +8533,7 @@ $transition-controls-video: color 0.2s $ease-transition, background-color 0.2s $
   height: $video-loader-size;
   position: absolute;
   margin-left: - $video-loader-size / 2;
-  border-radius: 50%;
+  border-radius: 75%;
   border: 2px solid white;
   border-top-color: transparent;
   @include animation(spin 0.65s infinite linear);
@@ -8808,8 +8808,21 @@ $min-height-disclosure: 92px;
   }
 }
 
+
+/*================ Our Campaigns ================*/
+
+.img-campaign{
+  border-radius: 8px;
+  max-width: 30%;
+  height: auto;
+
   
+}
 
-
-
-
+/* Added on January 01, 2021 by Nate Y | Theme Specialist at Shopify */ 
+@media only screen and (min-width: 750px) {
+  .text-center .mega-subtitle {
+    max-width: 100%;
+  }
+}
+/* End of change by Nate Y | Theme Specialist at Shopify */ 
