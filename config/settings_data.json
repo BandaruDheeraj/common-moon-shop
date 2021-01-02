@@ -457,7 +457,7 @@
           "c0fe2cf3-fbc0-49c5-bc14-11955dde12fe": {
             "type": "html",
             "settings": {
-              "code": "<div class=\"text-center\" style=\"padding-bottom:20px;\">\n<a href=\"https:\/\/www.notion.so\/projectbreakthecycle\/Help-Common-Moon-Grow-d2abb8d8ab1644df9beab88c6622774a\" target=\"_blank\" class=\"btn hero__btn\" style=\"background-color:#AFADD6\">\nVolunteer Opportunities\n<\/a>\n<\/div>",
+              "code": "<div class=\"text-center\" style=\"padding-bottom:20px;\">\n<a href=\"https:\/\/www.notion.so\/projectbreakthecycle\/Help-Common-Moon-Grow-d2abb8d8ab1644df9beab88c6622774a\" target=\"_blank\" class=\"btn hero__btn-about-bottom\">\nVolunteer Opportunities\n<\/a>\n<\/div>",
               "width": "100%"
             }
           }
