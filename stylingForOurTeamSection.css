@@ -70,7 +70,7 @@ transform: rotateX(180deg);
 <div class="so-accordion-wrapper">
 <div class="so-tab"><input id="so-tab-1" type="checkbox" name="tabs" /> <label for="so-tab-1">
     <div class="feature-row__item-campaigns">
-        <h2 class="h3">Our Team</h2>
+              <h2 class="h1"><b>Our Team</b></h2>
     </div>
 </label>
 <div class="so-tab-content">
