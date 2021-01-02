@@ -94,7 +94,7 @@
           "title": "Shop",
           "collection": "frontpage",
           "grid": 3,
-          "rows": 5,
+          "rows": 3,
           "show_vendor": false,
           "show_view_all": true
         }
@@ -526,19 +526,16 @@
       "custom-content-about-3": {
         "type": "custom-content-about-3",
         "blocks": {
-          "b5543683-acbf-4340-ab8a-d74151c8c84b": {
-            "type": "text",
+          "03173e7c-21e8-4de7-bae8-2b4b54a5fdc6": {
+            "type": "html",
             "settings": {
-              "title": "Our Team [make this entire section a toggle]",
-              "text": "<p><strong>Adrian<\/strong> - Marketing Team - <a href=\"mailto:adrian@projectbreakthecycle.com\">adrian@projectbreakthecycle.com<\/a><\/p><p><strong>Ansley<\/strong> - Marketing Team - <a href=\"mailto:ansley@projectbreakthecycle.com\">ansley@projectbreakthecycle.com<\/a><\/p><p><strong>Chaebin<\/strong> - Shop Development Member - <a href=\"mailto:chaebin@projectbreakthecycle.com\">chaebin@projectbreakthecycle.com<\/a><\/p><p><strong>Chaeeun<\/strong> - Shop Development Member - <a href=\"mailto:chaeeun@projectbreakthecycle.com\">chaeeun@projectbreakthecycle.com<\/a><\/p><p><strong>Darshan<\/strong> - Board Member - <a href=\"mailto:darshan@projectbreakthecycle.com\">darshan@projectbreakthecycle.com<\/a><\/p><p><strong>Dheeraj<\/strong> - Operations Lead, Board Member - <a href=\"mailto:dheeraj@projectbreakthecycle.com\">dheeraj@projectbreakthecycle.com<\/a><\/p><p><strong>Farouk<\/strong> - Operations Lead, Board Member - <a href=\"mailto:farouk@projectbreakthecycle.com\">farouk@projectbreakthecycle.com<\/a><\/p><p><strong>Haley<\/strong> - Branding Lead - <a href=\"mailto:haley@projectbreakthecycle.com\">haley@projectbreakthecycle.com<\/a><\/p><p><strong>Kate<\/strong> - Branding Lead - <a href=\"mailto:kate@projectbreakthecycle.com\">kate@projectbreakthecycle.com<\/a><\/p><p><strong>SK<\/strong> - Marketing Lead, Board Member - <a href=\"mailto:sk@projectbreakthecycle.com\">sk@projectbreakthecycle.com<\/a><\/p><p><strong>Sunny<\/strong> - Marketing Lead, Board Member - <a href=\"mailto:sanjeeth@projectbreakthecycle.com\">sanjeeth@projectbreakthecycle.com<\/a><\/p>",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "center"
+              "code": "<!-- Begin Accordion Snippet --><style><!--\n.so-tab {\nposition: relative;\nwidth: 100%;\noverflow: hidden;\nmargin: 25px 0;\n}\n.so-tab label {\nposition: relative;\ndisplay: block;\ntext-align: center;\nline-height: normal;\ncursor: pointer;\n}\n.so-tab input {\nposition: absolute;\nopacity: 0;\nz-index: -1;\n}\n.so-tab-content {\nmax-height: 0;\noverflow: hidden;\ntext-align: center;\ntransition: max-height .35s;\n}\n\/* :checked *\/\n.so-tab input:checked ~ .so-tab-content {\nmax-height: none;\n}\n\n\/* Icon *\/\n.so-tab label::after {\nposition: absolute;\nright: 0;\ntop: -10px;\ndisplay: flex;\nwidth: 8em;\nheight: 8em;\nline-height: 3;\ntext-align: center;\n-webkit-transition: all .35s;\n-o-transition: all .35s;\ntransition: all .35s;\n}\n.so-tab input[type=checkbox] + label::after {\ncontent: \"+\";\n}\n.so-tab input[type=radio] + label::after {\ncontent: \"\\25BC\";\n}\n.so-tab input[type=checkbox]:checked + label::after {\ntransform: rotate(20deg);\n}\n.so-tab input[type=radio]:checked + label::after {\ntransform: rotateX(180deg);\n}\n\n.feature-row__item-campaigns {\n  @include flex(0 1 50%);\n  text-align: center;\n\n  @include media-query($small) {\n    @include flex(1 1 auto);\n    width: 100%;\n    max-width: 100%;\n  }\n}\n\n--><\/style>\n<div class=\"so-accordion-wrapper\">\n<div class=\"so-tab\">\n<input id=\"so-tab-1\" type=\"checkbox\" name=\"tabs\"> <label for=\"so-tab-1\">\n    <div class=\"feature-row__item-campaigns\">\n              <h2 class=\"h1\"><b>Our Team<\/b><\/h2>\n    <\/div>\n<\/label>\n<div class=\"so-tab-content\">\n\n<p><b>Adrian<\/b> - Marketing Team - adrian@projectbreaktheycycle.com<\/p>\n<p><b>Ansley<\/b> - Marketing Team - ansley@projectbreaktheycycle.com<\/p>\n<p><b>Chaebin<\/b> - Shop Development Team - chaebin@projectbreaktheycycle.com<\/p>\n<p><b>Chaeeun<\/b> - Shop Development Team - chaeeun@projectbreaktheycycle.com<\/p>\n<p><b>Darshan<\/b> - Board Member - darshan@projectbreaktheycycle.com<\/p>\n<p><b>Dheeraj<\/b> - Operations Lead, Board Member - dheeraj@projectbreaktheycycle.com<\/p>\n<p><b>Farouk<\/b> - Operations Lead, Board Member - farouk@projectbreaktheycycle.com<\/p>\n<p><b>Haley<\/b> - Branding Lead - haley@projectbreaktheycycle.com<\/p>\n<p><b>Kate<\/b> - Branding Lead - kate@projectbreaktheycycle.com<\/p>\n<p><b>SK<\/b> - Marketing Lead, Board Member - sk@projectbreaktheycycle.com<\/p>\n<p><b>Sunny<\/b> - Marketing Lead, Board Member - sanjeeth@projectbreaktheycycle.com<\/p>\n\n<\/div>\n<\/div>\n<\/div>",
+              "width": "100%"
             }
           }
         },
         "block_order": [
-          "b5543683-acbf-4340-ab8a-d74151c8c84b"
+          "03173e7c-21e8-4de7-bae8-2b4b54a5fdc6"
         ],
         "settings": {
           "title": ""

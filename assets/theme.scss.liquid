@@ -7454,6 +7454,17 @@ $toolbar-height-small: 46px;
   }
 }
 
+.feature-row__item-campaigns {
+  @include flex(0 1 50%);
+  text-align: center;
+
+  @include media-query($small) {
+    @include flex(1 1 auto);
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 .feature-row__image-wrapper {
   margin: 0 auto $section-spacing-small / 1.8;
   position: relative;
@@ -7632,6 +7643,11 @@ $toolbar-height-small: 46px;
 
 .hero__btn {
   margin-top: $section-spacing / 2;
+}
+
+.hero__btn-about-bottom {
+  margin-top: $section-spacing / 2;
+  background-color: #AFADD6;
 }
 
 .hero__btn_home {
