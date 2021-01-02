@@ -7457,9 +7457,12 @@ $toolbar-height-small: 46px;
 .feature-row__image-wrapper {
   margin: 0 auto $section-spacing-small / 1.8;
   position: relative;
-  width: 100%;
-  
+  width: 75%;  
+  @include media-query($small) {
+    width: 85%; 
+  }
 }
+
 
 .feature-row__image {
   display: block;
@@ -7468,7 +7471,7 @@ $toolbar-height-small: 46px;
   .feature-row__image-wrapper & {
     width: 100%;
     position: absolute;
-    border-radius: 50%; //makes images circle on feature-row
+    border-radius: 75%; //makes images circle on feature-row
     top: 0;
   }
  
@@ -7476,6 +7479,34 @@ $toolbar-height-small: 46px;
     order: 1;
   }
 }
+
+.feature-row__image-wrapper-campaigns {
+  margin: 0 auto $section-spacing-small / 1.8;
+  position: relative;
+  width: 75%;  
+  @include media-query($small) {
+    width: 85%; 
+  }
+}
+
+
+.feature-row__image-campaigns {
+  display: block;
+  margin: 0 auto;
+
+  .feature-row__image-wrapper-campaigns & {
+    width: 100%;
+    position: absolute;
+    border-radius: 5%; //makes images circle on feature-row
+    top: 0;
+  }
+ 
+  @include media-query($small) {
+    order: 1;
+  }
+}
+
+
 
 
 

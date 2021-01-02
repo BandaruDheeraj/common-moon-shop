@@ -94,9 +94,9 @@
           "title": "Shop",
           "collection": "frontpage",
           "grid": 3,
-          "rows": 2,
+          "rows": 5,
           "show_vendor": false,
-          "show_view_all": false
+          "show_view_all": true
         }
       },
       "quotes": {
@@ -287,11 +287,11 @@
       "hero-about-1": {
         "type": "hero-about-1",
         "settings": {
-          "image": "shopify:\/\/shop_images\/GoldBanner.png",
+          "image": "shopify:\/\/shop_images\/backgroundAboutUs.png",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "large",
-          "text_size": "medium",
+          "text_size": "large",
           "title": "Our Mission",
           "text": "<p>Common Moon is a creative label that donates 100% of its profits to community-led initiatives fighting poverty across the globe. <\/p>",
           "button_label": ""
@@ -300,7 +300,7 @@
       "feature-row-about-1": {
         "type": "feature-row-about-1",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-12-21_at_1.02.28_PM.png",
+          "image": "shopify:\/\/shop_images\/duallogosforweb-01.jpg",
           "layout": "right",
           "title": "Who We Are",
           "text": "<p>Common Moon is a 100% volunteer-driven creative division focused on exploring experiences that foster community and inspire compassion. None of our sales go towards the compensation of employees or executives.<\/p><p>Today, we&#x27;re working with artists to design and sell clothing in order to fund our parent 501(c)3 non-profit, <a href=\"https:\/\/projectbreakthecycle.com\/\" title=\"Project Break The Cycle\" target=\"_blank\">Project Break The Cycle<\/a>. Tomorrow, we hope to convey our message of compassion across an expanding range of media and audiences.<\/p>",
@@ -329,10 +329,103 @@
               "alignment": "center",
               "align_text": "center"
             }
+          },
+          "07df07c4-1e80-4a0c-85b1-6d4c2a27b69a": {
+            "type": "text",
+            "settings": {
+              "title": "Active Projects",
+              "text": "",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "d0e4be71-fc7f-44e0-bc26-1cd4d8b50a66": {
+            "type": "html",
+            "settings": {
+              "code": "<div>\n<img style=\"max-width:200px;float:left;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0419\/0591\/4021\/files\/PBTC-18_360x.jpg?v=1608573780\">\n<h2>Income Generation Farming Project<\/h2>\n\n<label for=\"file\">$4501 raised of $10,000 goal<\/label>\n<progress id=\"file\" value=\"25\" max=\"100\"> 25% <\/progress>\n\n<p>Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals. Families can eat animal produce and sell surplus back into local markets.<\/p>\n\n<\/div>",
+              "width": "100%"
+            }
+          },
+          "826b88e9-b4fa-4887-893a-7b3312651403": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "ce92b162-38e9-4aa4-9c4a-d611f190412b": {
+            "type": "product",
+            "settings": {
+              "product": "",
+              "width": "100%",
+              "alignment": "center"
+            }
+          },
+          "ac6a758f-384d-4478-82ce-49dfb1096202": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
+              "width": "33%",
+              "alignment": "top-left"
+            }
+          },
+          "64080e3f-65b6-4c72-9c50-cb4119eaf4f9": {
+            "type": "html",
+            "settings": {
+              "code": "<div>\n<h2>Income Generation Farming Project<\/h2>\n\n<label for=\"file\">$4501 raised of $10,000 goal<\/label>\n<progress id=\"file\" value=\"25\" max=\"100\"> 25% <\/progress>\n\n<p>Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals. Families can eat animal produce and sell surplus back into local markets.<\/p>\n\n<a href=\"https:\/\/www.gofundme.com\/f\/local-emergency-relief-fund-for-lebanon\" target=\"_blank\" class=\"btn hero__btn\">\nLearn More &gt;\n<\/a>\n\n<\/div>",
+              "width": "66%"
+            }
+          },
+          "4e5774f1-603c-451d-a66d-95a591c01352": {
+            "type": "text",
+            "settings": {
+              "title": "Past Projects",
+              "text": "",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "f9232be4-3913-4229-a526-1e669b405370": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "3904b0a5-0370-45d6-a743-d59aa804ab9f": {
+            "type": "html",
+            "settings": {
+              "code": "<div>\n<h2>Income Generation Farming Project<\/h2>\n\n<label for=\"file\">$4501 raised of $10,000 goal<\/label>\n<progress id=\"file\" value=\"25\" max=\"100\"> 25% <\/progress>\n\n<p>Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals. Families can eat animal produce and sell surplus back into local markets.<\/p>\n\n<a href=\"https:\/\/www.gofundme.com\/f\/local-emergency-relief-fund-for-lebanon\" target=\"_blank\" class=\"btn hero__btn\">\nLearn More &gt;\n<\/a>\n\n<\/div>",
+              "width": "66%"
+            }
+          },
+          "8cf97d4a-f89a-495a-8442-68a3d3605aeb": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
+              "width": "33%",
+              "alignment": "top-left"
+            }
           }
         },
         "block_order": [
-          "9e3115f9-2ce2-4559-b732-24d490c32ec3"
+          "9e3115f9-2ce2-4559-b732-24d490c32ec3",
+          "07df07c4-1e80-4a0c-85b1-6d4c2a27b69a",
+          "d0e4be71-fc7f-44e0-bc26-1cd4d8b50a66",
+          "826b88e9-b4fa-4887-893a-7b3312651403",
+          "ce92b162-38e9-4aa4-9c4a-d611f190412b",
+          "ac6a758f-384d-4478-82ce-49dfb1096202",
+          "64080e3f-65b6-4c72-9c50-cb4119eaf4f9",
+          "4e5774f1-603c-451d-a66d-95a591c01352",
+          "f9232be4-3913-4229-a526-1e669b405370",
+          "3904b0a5-0370-45d6-a743-d59aa804ab9f",
+          "8cf97d4a-f89a-495a-8442-68a3d3605aeb"
         ],
         "settings": {
           "title": ""
@@ -341,6 +434,7 @@
       "feature-row-about-3": {
         "type": "feature-row-about-3",
         "settings": {
+          "image": "shopify:\/\/shop_images\/Background_Image_2.png",
           "layout": "right",
           "title": "How We Do It",
           "text": "<p>We’re a nonprofit for nonprofits.<\/p><p>We partner with nonprofits and campaigns that align with our mission. Our responsibility is to creatively fundraise in support of these campaigns.<\/p><p>Right now, we have creative campaigns that last anywhere from 3 months to a full year. As soon as we profit enough to implement part of a campaign, we donate all profits to our partner.<\/p><p>Our partner organization then has full discretion as to how to use these funds within the active project. Within a creative campaign we will be donating multiple times, and making sure that your contributions have the impact they deserve.<\/p>",
@@ -354,7 +448,7 @@
             "type": "text",
             "settings": {
               "title": "Help Us Grow",
-              "text": "<p>Common Moon is run entirely by volunteers (that&#x27;s how we donate 100% of profits!), so we are always looking for artists, designers, and anyone who believes they have something to offer or simply wants to help.<\/p>",
+              "text": "<p>Common Moon is run entirely by volunteers (that&#x27;s how we donate 100% of profits), so we are always looking for artists, designers, and anyone who believes they have something to offer or simply wants to help.<\/p>",
               "width": "100%",
               "alignment": "center",
               "align_text": "center"
@@ -363,7 +457,7 @@
           "c0fe2cf3-fbc0-49c5-bc14-11955dde12fe": {
             "type": "html",
             "settings": {
-              "code": "<div class=\"text-center\" style=\"padding-bottom:20px;\">\n<a href=\"https:\/\/www.notion.so\/projectbreakthecycle\/Help-Common-Moon-Grow-d2abb8d8ab1644df9beab88c6622774a\" target=\"_blank\" class=\"btn hero__btn\">\nVolunteer Opportunities\n<\/a>\n<\/div>",
+              "code": "<div class=\"text-center\" style=\"padding-bottom:20px;\">\n<a href=\"https:\/\/www.notion.so\/projectbreakthecycle\/Help-Common-Moon-Grow-d2abb8d8ab1644df9beab88c6622774a\" target=\"_blank\" class=\"btn hero__btn\" style=\"background-color:#AFADD6\">\nVolunteer Opportunities\n<\/a>\n<\/div>",
               "width": "100%"
             }
           }
@@ -379,13 +473,15 @@
       "hero-about-2": {
         "type": "hero-about-2",
         "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-12-21_at_12.47.40_PM.png",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "medium",
           "text_size": "medium",
-          "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-          "button_label": ""
+          "title": "100% profits always donated to the active campaign",
+          "text": "",
+          "button_label": "Shop Now",
+          "button_link": "https:\/\/commonmoon.org\/"
         }
       },
       "16085259934bc5f28b": {
@@ -399,7 +495,7 @@
               "slide_title": "",
               "subheading": "",
               "button_label": "Shop Sahara Studios Collaboration",
-              "button_link": "http:\/\/google.com"
+              "button_link": "shopify:\/\/collections\/frontpage"
             }
           },
           "16085259934bc5f28b-1": {
@@ -410,7 +506,7 @@
               "slide_title": "",
               "subheading": "",
               "button_label": "Shop Sahara Studios Collaboration",
-              "button_link": "http:\/\/google.com"
+              "button_link": "shopify:\/\/collections\/frontpage"
             }
           }
         },
@@ -433,8 +529,8 @@
           "b5543683-acbf-4340-ab8a-d74151c8c84b": {
             "type": "text",
             "settings": {
-              "title": "Our Team [make this a toggle]",
-              "text": "<p><strong>Adrian<\/strong> - Marketing Team - adrian@projectbreakthecycle.com<\/p><p><strong>Ansley<\/strong> - Marketing Team - ansley@projectbreakthecycle.com<\/p><p><strong>Darshan<\/strong> - Board Member - darshan@projectbreakthecycle.com<\/p><p><strong>Dheeraj<\/strong> - Operations Lead, Board Member - dheeraj@projectbreakthecycle.com<\/p><p><strong>Farouk<\/strong> - Operations Lead, Board Member - farouk@projectbreakthecycle.com<\/p><p><strong>Haley<\/strong> - Branding Lead - haley@projectbreakthecycle.com<\/p><p><strong>Kate<\/strong> - Branding Lead - kate@projectbreakthecycle.com<\/p><p><strong>SK<\/strong> - Marketing Lead, Board Member - sk@projectbreakthecycle.com<\/p><p><strong>Sunny<\/strong> - Marketing Lead, Board Member - sanjeeth@projectbreakthecycle.com<\/p><p><\/p><p><\/p>",
+              "title": "Our Team [make this entire section a toggle]",
+              "text": "<p><strong>Adrian<\/strong> - Marketing Team - <a href=\"mailto:adrian@projectbreakthecycle.com\">adrian@projectbreakthecycle.com<\/a><\/p><p><strong>Ansley<\/strong> - Marketing Team - <a href=\"mailto:ansley@projectbreakthecycle.com\">ansley@projectbreakthecycle.com<\/a><\/p><p><strong>Chaebin<\/strong> - Shop Development Member - <a href=\"mailto:chaebin@projectbreakthecycle.com\">chaebin@projectbreakthecycle.com<\/a><\/p><p><strong>Chaeeun<\/strong> - Shop Development Member - <a href=\"mailto:chaeeun@projectbreakthecycle.com\">chaeeun@projectbreakthecycle.com<\/a><\/p><p><strong>Darshan<\/strong> - Board Member - <a href=\"mailto:darshan@projectbreakthecycle.com\">darshan@projectbreakthecycle.com<\/a><\/p><p><strong>Dheeraj<\/strong> - Operations Lead, Board Member - <a href=\"mailto:dheeraj@projectbreakthecycle.com\">dheeraj@projectbreakthecycle.com<\/a><\/p><p><strong>Farouk<\/strong> - Operations Lead, Board Member - <a href=\"mailto:farouk@projectbreakthecycle.com\">farouk@projectbreakthecycle.com<\/a><\/p><p><strong>Haley<\/strong> - Branding Lead - <a href=\"mailto:haley@projectbreakthecycle.com\">haley@projectbreakthecycle.com<\/a><\/p><p><strong>Kate<\/strong> - Branding Lead - <a href=\"mailto:kate@projectbreakthecycle.com\">kate@projectbreakthecycle.com<\/a><\/p><p><strong>SK<\/strong> - Marketing Lead, Board Member - <a href=\"mailto:sk@projectbreakthecycle.com\">sk@projectbreakthecycle.com<\/a><\/p><p><strong>Sunny<\/strong> - Marketing Lead, Board Member - <a href=\"mailto:sanjeeth@projectbreakthecycle.com\">sanjeeth@projectbreakthecycle.com<\/a><\/p>",
               "width": "100%",
               "alignment": "center",
               "align_text": "center"
@@ -446,6 +542,56 @@
         ],
         "settings": {
           "title": ""
+        }
+      },
+      "custom-content-campaigns-columns-1": {
+        "type": "custom-content-campaigns-columns-1",
+        "blocks": {
+          "63d82b03-b37b-4145-8015-6e246b737131": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
+              "title": "Income Generation Farming Project",
+              "code": "<div class=\"text-center\">\n<label for=\"file\">$4501 raised of $10,000 goal<\/label>\n<progress id=\"file\" value=\"25\" max=\"100\"> 25% <\/progress>\n<\/div>",
+              "text": "<p>Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals. Families can eat animal produce and sell surplus back into local markets.<\/p>",
+              "button_label": "Learn More >",
+              "button_link": "http:\/\/google.com"
+            }
+          },
+          "6d7fb155-b31c-4887-afd3-570f1d9b6184": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
+              "title": "Income Generation Farming Project",
+              "code": "<div class=\"text-center\">\n<label for=\"file\">$4501 raised of $10,000 goal<\/label>\n<progress id=\"file\" value=\"25\" max=\"100\"> 25% <\/progress>\n<\/div>",
+              "text": "<p>Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals. Families can eat animal produce and sell surplus back into local markets.<\/p>",
+              "button_label": "Learn More >",
+              "button_link": "http:\/\/Google.com"
+            }
+          },
+          "f6ea5a1d-a905-45f8-a691-c3c20ca124c4": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
+              "title": "Income Generation Farming Project",
+              "code": "<div class=\"text-center\">\n<label for=\"file\">$4501 raised of $10,000 goal<\/label>\n<progress id=\"file\" value=\"25\" max=\"100\"> 25% <\/progress>\n<\/div>",
+              "text": "<p>Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals. Families can eat animal produce and sell surplus back into local markets.<\/p>",
+              "button_label": "Learn More >",
+              "button_link": "http:\/\/google.com"
+            }
+          }
+        },
+        "block_order": [
+          "63d82b03-b37b-4145-8015-6e246b737131",
+          "6d7fb155-b31c-4887-afd3-570f1d9b6184",
+          "f6ea5a1d-a905-45f8-a691-c3c20ca124c4"
+        ],
+        "settings": {
+          "title": "Our Campaigns",
+          "align_text": "left"
         }
       }
     },
