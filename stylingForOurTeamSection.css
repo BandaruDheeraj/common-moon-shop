@@ -8,8 +8,6 @@ margin: 25px 0;
 .so-tab label {
 position: relative;
 display: block;
-padding: 0 25px 0 0;
-margin-bottom: 15px;
 text-align: center;
 line-height: normal;
 cursor: pointer;
@@ -22,20 +20,22 @@ z-index: -1;
 .so-tab-content {
 max-height: 0;
 overflow: hidden;
+text-align: center;
 transition: max-height .35s;
 }
 /* :checked */
 .so-tab input:checked ~ .so-tab-content {
 max-height: none;
 }
+
 /* Icon */
 .so-tab label::after {
 position: absolute;
 right: 0;
-top: -20px;
-display: block;
-width: 3em;
-height: 3em;
+top: -10px;
+display: flex;
+width: 8em;
+height: 8em;
 line-height: 3;
 text-align: center;
 -webkit-transition: all .35s;
@@ -49,14 +49,30 @@ content: "+";
 content: "\25BC";
 }
 .so-tab input[type=checkbox]:checked + label::after {
-transform: rotate(315deg);
+transform: rotate(20deg);
 }
 .so-tab input[type=radio]:checked + label::after {
 transform: rotateX(180deg);
 }
+
+.feature-row__item-campaigns {
+  @include flex(0 1 50%);
+  text-align: center;
+
+  @include media-query($small) {
+    @include flex(1 1 auto);
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 --></style>
 <div class="so-accordion-wrapper">
-<div class="so-tab"><input id="so-tab-1" type="checkbox" name="tabs" /> <label for="so-tab-1"><h4 class="h3">Our Team</h4></label>
+<div class="so-tab"><input id="so-tab-1" type="checkbox" name="tabs" /> <label for="so-tab-1">
+    <div class="feature-row__item-campaigns">
+        <h2 class="h3">Our Team</h2>
+    </div>
+</label>
 <div class="so-tab-content">
 
 <p><b>Adrian</b> - Marketing Team - adrian@projectbreaktheycycle.com</p>
