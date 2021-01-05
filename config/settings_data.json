@@ -6,8 +6,17 @@
     "type_base_font": "sans-serif",
     "share_facebook": true,
     "social_facebook_link": "https:\/\/www.facebook.com\/projectbreakthecycle\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/projectbreakthecycle\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/commonmoonshop\/",
     "favicon": "shopify:\/\/shop_images\/Artboard_2_2x_a446cace-4ae1-4ad9-ae2b-8904ddd1afb3.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Artboard_1_2x_188780ff-233c-433e-9b46-f001adaa8444.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#f3f0ee",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#f3f0ee",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#afadd6",
+    "checkout_button_color": "#414042",
     "sections": {
       "header": {
         "type": "header",
@@ -19,7 +28,7 @@
           "message": true,
           "home_page_only": false,
           "message_text": "New Collection Releases Jan. 10th. Follow our Instagram to stay up-to-date!",
-          "message_link": "https:\/\/www.instagram.com\/projectbreakthecycle\/",
+          "message_link": "https:\/\/www.instagram.com\/commonmoonshop\/",
           "color_bg": "#afadd6",
           "color_text": "#ffffff"
         }
@@ -93,8 +102,8 @@
         "settings": {
           "title": "Shop",
           "collection": "frontpage",
-          "grid": 3,
-          "rows": 3,
+          "grid": 4,
+          "rows": 2,
           "show_vendor": false,
           "show_view_all": true
         }
@@ -310,7 +319,7 @@
       "feature-row-about-2": {
         "type": "feature-row-about-2",
         "settings": {
-          "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
+          "image": "shopify:\/\/shop_images\/ourStoryPhoto.jpg",
           "layout": "left",
           "title": "Our Story",
           "text": "<p>Our parent nonprofit, <a href=\"https:\/\/projectbreakthecycle.com\/\" title=\"Project Break The Cycle\" target=\"_blank\">Project Break the Cycle<\/a>, is an organization dedicated to using unexplored revenue streams to enable sustainable and community-centered nonprofit organizations.<\/p><p>After a four-year hiatus, Project Break the Cycle&#x27;s operations were reimagined from the ground up. As Project Break the Cycle&#x27;s merchandise division developed, they established a dedicated creative division called <strong>Common Moon<\/strong>, with the help of volunteer creatives that had a passion for social impact.<\/p>",
@@ -434,7 +443,7 @@
       "feature-row-about-3": {
         "type": "feature-row-about-3",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Background_Image_2.png",
+          "image": "shopify:\/\/shop_images\/howWeDoItPhoto.png",
           "layout": "right",
           "title": "How We Do It",
           "text": "<p>We’re a nonprofit for nonprofits.<\/p><p>We partner with nonprofits and campaigns that align with our mission. Our responsibility is to creatively fundraise in support of these campaigns.<\/p><p>Right now, we have creative campaigns that last anywhere from 3 months to a full year. As soon as we profit enough to implement part of a campaign, we donate all profits to our partner.<\/p><p>Our partner organization then has full discretion as to how to use these funds within the active project. Within a creative campaign we will be donating multiple times, and making sure that your contributions have the impact they deserve.<\/p>",
@@ -473,7 +482,7 @@
       "hero-about-2": {
         "type": "hero-about-2",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-12-21_at_12.47.40_PM.png",
+          "image": "shopify:\/\/shop_images\/kb.website.1.png",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "medium",
@@ -498,6 +507,17 @@
               "button_link": "shopify:\/\/collections\/frontpage"
             }
           },
+          "5a99de67-d62e-46ff-be31-f87bf2b01c27": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/kb.website.3.png",
+              "alignment": "center center",
+              "slide_title": "New Collection Releasing Jan. 10",
+              "subheading": "",
+              "button_label": "Stay Updated On Instagram",
+              "button_link": "https:\/\/www.instagram.com\/commonmoonshop\/"
+            }
+          },
           "16085259934bc5f28b-1": {
             "type": "image",
             "settings": {
@@ -512,6 +532,7 @@
         },
         "block_order": [
           "16085259934bc5f28b-0",
+          "5a99de67-d62e-46ff-be31-f87bf2b01c27",
           "16085259934bc5f28b-1"
         ],
         "settings": {
@@ -520,7 +541,7 @@
           "text_alignment": "center center",
           "show_overlay": true,
           "autorotate": true,
-          "autorotate_speed": 5
+          "autorotate_speed": 3
         }
       },
       "custom-content-about-3": {
@@ -529,7 +550,7 @@
           "03173e7c-21e8-4de7-bae8-2b4b54a5fdc6": {
             "type": "html",
             "settings": {
-              "code": "<!-- Begin Accordion Snippet --><style><!--\n.so-tab {\nposition: relative;\nwidth: 100%;\noverflow: hidden;\nmargin: 25px 0;\n}\n.so-tab label {\nposition: relative;\ndisplay: block;\ntext-align: center;\nline-height: normal;\ncursor: pointer;\n}\n.so-tab input {\nposition: absolute;\nopacity: 0;\nz-index: -1;\n}\n.so-tab-content {\nmax-height: 0;\noverflow: hidden;\ntext-align: center;\ntransition: max-height .35s;\n}\n\/* :checked *\/\n.so-tab input:checked ~ .so-tab-content {\nmax-height: none;\n}\n\n\/* Icon *\/\n.so-tab label::after {\nposition: absolute;\nright: 0;\ntop: -10px;\ndisplay: flex;\nwidth: 8em;\nheight: 8em;\nline-height: 3;\ntext-align: center;\n-webkit-transition: all .35s;\n-o-transition: all .35s;\ntransition: all .35s;\n}\n.so-tab input[type=checkbox] + label::after {\ncontent: \"+\";\n}\n.so-tab input[type=radio] + label::after {\ncontent: \"\\25BC\";\n}\n.so-tab input[type=checkbox]:checked + label::after {\ntransform: rotate(20deg);\n}\n.so-tab input[type=radio]:checked + label::after {\ntransform: rotateX(180deg);\n}\n\n.feature-row__item-campaigns {\n  @include flex(0 1 50%);\n  text-align: center;\n\n  @include media-query($small) {\n    @include flex(1 1 auto);\n    width: 100%;\n    max-width: 100%;\n  }\n}\n\n--><\/style>\n<div class=\"so-accordion-wrapper\">\n<div class=\"so-tab\">\n<input id=\"so-tab-1\" type=\"checkbox\" name=\"tabs\"> <label for=\"so-tab-1\">\n    <div class=\"feature-row__item-campaigns\">\n              <h2 class=\"h1\"><b>Our Team<\/b><\/h2>\n    <\/div>\n<\/label>\n<div class=\"so-tab-content\">\n\n<p><b>Adrian<\/b> - Marketing Team - adrian@projectbreaktheycycle.com<\/p>\n<p><b>Ansley<\/b> - Marketing Team - ansley@projectbreaktheycycle.com<\/p>\n<p><b>Chaebin<\/b> - Shop Development Team - chaebin@projectbreaktheycycle.com<\/p>\n<p><b>Chaeeun<\/b> - Shop Development Team - chaeeun@projectbreaktheycycle.com<\/p>\n<p><b>Darshan<\/b> - Board Member - darshan@projectbreaktheycycle.com<\/p>\n<p><b>Dheeraj<\/b> - Operations Lead, Board Member - dheeraj@projectbreaktheycycle.com<\/p>\n<p><b>Farouk<\/b> - Operations Lead, Board Member - farouk@projectbreaktheycycle.com<\/p>\n<p><b>Haley<\/b> - Branding Lead - haley@projectbreaktheycycle.com<\/p>\n<p><b>Kate<\/b> - Branding Lead - kate@projectbreaktheycycle.com<\/p>\n<p><b>SK<\/b> - Marketing Lead, Board Member - sk@projectbreaktheycycle.com<\/p>\n<p><b>Sunny<\/b> - Marketing Lead, Board Member - sanjeeth@projectbreaktheycycle.com<\/p>\n\n<\/div>\n<\/div>\n<\/div>",
+              "code": "",
               "width": "100%"
             }
           }
@@ -548,36 +569,36 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
+              "image": "shopify:\/\/shop_images\/incomeGenCampaignPhoto.jpg",
               "title": "Income Generation Farming Project",
-              "code": "<div class=\"text-center\">\n<label for=\"file\">$4501 raised of $10,000 goal<\/label>\n<div class=\"w3-progress-container w3-round-xlarge\">\n  <div class=\"w3-progressbar w3-round-xlarge\" style=\"width:25%\"><\/div>\n<\/div>\n<\/div>",
-              "text": "<p>Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals. Families can eat animal produce and sell surplus back into local markets.<\/p>",
+              "code": "<div class=\"text-center\">\n<label for=\"file\">$4,501 raised of $10,000 goal<\/label>\n<div class=\"w3-progress-container w3-round-xlarge\">\n  <div class=\"w3-progressbar w3-round-xlarge\" style=\"width:45.01%\"><\/div>\n<\/div>\n<\/div>",
+              "text": "<p>We&#x27;re working with our current non-profit partner, the Yemen Relief and Reconstruction Foundation, to fund the distribution of livestock (including chicken and goats) to Yemeni communities in need. Families can use animal produce and sell surplus in local markets. <\/p>",
               "button_label": "Learn More >",
-              "button_link": "http:\/\/google.com"
+              "button_link": "https:\/\/projectbreakthecycle.com\/farming-income-generation"
             }
           },
           "6d7fb155-b31c-4887-afd3-570f1d9b6184": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
-              "title": "Income Generation Farming Project",
-              "code": "<div class=\"text-center\">\n<label for=\"file\">$4501 raised of $10,000 goal<\/label>\n<div class=\"w3-progress-container w3-round-xlarge\">\n  <div class=\"w3-progressbar w3-round-xlarge\" style=\"width:25%\"><\/div>\n<\/div>\n<\/div>",
-              "text": "<p>Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals. Families can eat animal produce and sell surplus back into local markets.<\/p>",
+              "image": "shopify:\/\/shop_images\/lebReliefCampaignPhoto.jpg",
+              "title": "Lebanon Relief Fund",
+              "code": "<div class=\"text-center\">\n<label for=\"file\">$3,060 raised of $5,000 goal<\/label>\n<div class=\"w3-progress-container w3-round-xlarge\">\n  <div class=\"w3-progressbar w3-round-xlarge\" style=\"width:61.2%\"><\/div>\n<\/div>\n<\/div>",
+              "text": "<p>We&#x27;re funding local volunteers in Tripoli, Lebanon in order to distribute food, medicine, and diapers to people in need across the Greater Beirut Area after the Beirut Explosion of August 2020.<\/p>",
               "button_label": "Learn More >",
-              "button_link": "http:\/\/Google.com"
+              "button_link": "https:\/\/projectbreakthecycle.com\/lebanon-relief-fund"
             }
           },
           "f6ea5a1d-a905-45f8-a691-c3c20ca124c4": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/PBTC-18.jpg",
-              "title": "Income Generation Farming Project",
-              "code": "<div class=\"text-center\">\n<label for=\"file\">$4501 raised of $10,000 goal<\/label>\n<div class=\"w3-progress-container w3-round-xlarge\">\n  <div class=\"w3-progressbar w3-round-xlarge\" style=\"width:25%\"><\/div>\n<\/div>\n<\/div>",
-              "text": "<p>Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals. Families can eat animal produce and sell surplus back into local markets.<\/p>",
+              "image": "shopify:\/\/shop_images\/orphanScholarshipCampaignPhoto.jpg",
+              "title": "Orphan Children Scholarship Fund",
+              "code": "<div class=\"text-center\">\n<label for=\"file\">$13,650 raised of $10,000 goal<\/label>\n<div class=\"w3-progress-container w3-round-xlarge\">\n  <div class=\"w3-progressbar w3-round-xlarge\" style=\"width:100%\"><\/div>\n<\/div>\n<\/div>",
+              "text": "<p>PBTC worked with the Home of Tripoli for Social Welfare to support a scholarship pool that funds private school education and after-school tutors for orphaned children in Tripoli, Lebanon.<\/p>",
               "button_label": "Learn More >",
-              "button_link": "http:\/\/google.com"
+              "button_link": "https:\/\/projectbreakthecycle.com\/orphan-scholarship-fund"
             }
           }
         },
@@ -589,6 +610,35 @@
         "settings": {
           "title": "Our Campaigns",
           "align_text": "left"
+        }
+      },
+      "custom-content-about-5": {
+        "type": "custom-content-about-5",
+        "blocks": {
+          "0ed534a2-9aae-412d-a328-e86780d11ce0": {
+            "type": "text",
+            "settings": {
+              "title": "Our Team",
+              "text": "<p>We&#x27;re proud of all of our volunteers here at Common Moon! Feel free to reach out to us with any comments or questions about our organization&#x27;s work, or about our experiences as volunteers (if you&#x27;re interested in joining)! We&#x27;d love to get to know you :)<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          },
+          "e95d06e8-9429-4534-aa8f-f629fbf8fceb": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"text-center\" id=\"creditDiv\" style=\"display: none;\">\n\t<p><b>Adrian<\/b> - Media - adrian@projectbreaktheycycle.com<\/p>\n\t<p><b>Ansley<\/b> - Media - ansley@projectbreaktheycycle.com<\/p>\n\t<p><b>Chaebin<\/b> - Media - chaebin@projectbreaktheycycle.com<\/p>\n\t<p><b>Chaeeun<\/b> - Media - chaeeun@projectbreaktheycycle.com<\/p>\n\t<p><b>Darshan<\/b> - Operations - darshan@projectbreaktheycycle.com<\/p>\n\t<p><b>Dheeraj<\/b> - Operations - dheeraj@projectbreaktheycycle.com<\/p>\n\t<p><b>Farouk<\/b> - Operations - farouk@projectbreaktheycycle.com<\/p>\n\t<p><b>Haley<\/b> - Media - haley@projectbreaktheycycle.com<\/p>\n\t<p><b>Kate<\/b> - Media - kate@projectbreaktheycycle.com<\/p>\n\t<p><b>SK<\/b> - Operations - sk@projectbreaktheycycle.com<\/p>\n\t<p><b>Sunny<\/b> - Operations - sanjeeth@projectbreaktheycycle.com<\/p>\n<\/div>\n\n<script>\n  function creditsDivToggle() {\n    var x = document.getElementById(\"creditDiv\");\n    if (x.style.display === \"none\") {\n      x.style.display = \"block\";\n    } else {\n      x.style.display = \"none\";\n    }\n  }\n<\/script>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "0ed534a2-9aae-412d-a328-e86780d11ce0",
+          "e95d06e8-9429-4534-aa8f-f629fbf8fceb"
+        ],
+        "settings": {
+          "title": ""
         }
       }
     },

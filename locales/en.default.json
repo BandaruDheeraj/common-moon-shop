@@ -414,6 +414,17 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "tips": {
+        "title": "Add donation",
+        "description": "We'll include a free sticker with any additional donation! All proceeds go directly to our active campaign.",
+        "custom_label": "Custom amount",
+        "presets_description": "Select a donation percentage",
+        "add_tip": "Add donation",
+        "update_tip": "Update donation",
+        "message": "Thank you for your support!"
+      }
     }
   }
 }

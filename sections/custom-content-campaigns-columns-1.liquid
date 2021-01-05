@@ -57,7 +57,7 @@
           {% endif %}
         {% endif %}
         {% if block.settings.title != blank %}
-          <h3 class="h4 text-center">{{ block.settings.title | escape }}</h3>
+          <h3 class="h3 text-center" style="font-size:20px;" >{{ block.settings.title | escape }}</h3>
         {% endif %}
         {% if block.settings.code != blank %}
           <div class="custom__item--html custom__item--{{ block.id }} {{ block_width_mobile }} {{ block_width }}{% if block.settings.alignment %} align--{{ block.settings.alignment }}{% endif %}" {{ block.shopify_attributes }}>
@@ -66,6 +66,7 @@
               {{ block.settings.code }}
               {% endif %}
             </div>
+            <br/>
           </div>
         {% endif %}
         {% if block.settings.text != blank %}
@@ -73,7 +74,7 @@
         {% endif %}
 
         {% if block.settings.button_label != blank and block.settings.button_link != blank %}
-          <div class="text-center">
+          <div class="text-center" style="margin-top:-20px;">
             {%- capture ariaLabel -%}
               {{- block.settings.button_label -}}
               {%- if block.settings.button_link.type == 'frontpage_link' -%}
