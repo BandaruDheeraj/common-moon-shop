@@ -1,6 +1,7 @@
 {
   "current": {
     "color_text": "#414042",
+    "color_image_overlay_text": "#f3f0ee",
     "image_overlay_opacity": 0,
     "type_header_font": "sans-serif",
     "type_base_font": "sans-serif",
@@ -42,7 +43,7 @@
           "hero_size": "large",
           "text_size": "large",
           "title": "",
-          "text": "<p>We&#x27;re reinventing shopping with a purpose. 100% profits always donated to the current campaign.<\/p>",
+          "text": "<p>Welcome to Common Moon! We&#x27;re 100% volunteer-driven so 100% of the profits from your purchase go directly to charity! <a href=\"\/pages\/about\" title=\"About Us\">Learn More<\/a><\/p>",
           "button_label": "Shop Now 🠗",
           "button_link": "#shopify-section-collection"
         }
@@ -101,7 +102,7 @@
         "type": "collection",
         "settings": {
           "title": "Shop",
-          "collection": "frontpage",
+          "collection": "saharastudios-collaboration",
           "grid": 4,
           "rows": 2,
           "show_vendor": false,
@@ -144,34 +145,6 @@
       },
       "image-bar": {
         "type": "image-bar",
-        "blocks": {
-          "image-bar-0": {
-            "type": "image",
-            "settings": {
-              "alignment": "center",
-              "cta_label": ""
-            }
-          },
-          "image-bar-1": {
-            "type": "image",
-            "settings": {
-              "alignment": "center",
-              "cta_label": ""
-            }
-          },
-          "image-bar-2": {
-            "type": "image",
-            "settings": {
-              "alignment": "center",
-              "cta_label": ""
-            }
-          }
-        },
-        "block_order": [
-          "image-bar-0",
-          "image-bar-1",
-          "image-bar-2"
-        ],
         "settings": {
           "section_height": "medium"
         }
@@ -289,8 +262,101 @@
       },
       "custom-content": {
         "type": "custom-content",
+        "blocks": {
+          "ddf028c8-ed4e-412d-8ca7-401c23a748e5": {
+            "type": "text",
+            "settings": {
+              "title": "Common Moon Archives",
+              "text": "<p>Welcome to our archives, where you can find all of our current and previous collections!<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          },
+          "732f6fc9-da22-4867-bfa6-faf64dec3f34": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"text-center\">\n<h3>All My Homies Collection<\/h3>\n<p>Winter 2021<\/p>\n<a href=\"google.com\" class=\"btn hero__btn-about-bottom btn--small\">View Now<\/a>\n<\/div>",
+              "width": "33%"
+            }
+          },
+          "945a64f5-7d3f-40d3-b1bd-0008e73c9e00": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/howWeDoItPhoto.png",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "47dc7cc9-92f6-4b50-934a-bda5bf9fd78f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/howWeDoItPhoto.png",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "d5860cc9-24b3-4082-9564-3c6d71a03759": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"text-center\">\n<h3>Sahara Studios x Common Moon<\/h3>\n<p>Summer 2020<\/p>\n<a href=\"google.com\" class=\"btn hero__btn-about-bottom btn--small\">View Now<\/a>\n<\/div>",
+              "width": "33%"
+            }
+          },
+          "99c8e303-aa85-4851-bba0-121425c29ed7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/howWeDoItPhoto.png",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "7b90c0a8-4f14-4e96-87c1-6b363c1e8189": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/howWeDoItPhoto.png",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "505f8e07-cdc8-47cb-bf15-91265f7feb4e": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"text-center\">\n<h3>Cherry Blossom Collection<\/h3>\n<p>Fall 2017<\/p>\n<a href=\"google.com\" class=\"btn hero__btn-about-bottom btn--small\">View Now<\/a>\n<\/div>",
+              "width": "33%"
+            }
+          },
+          "36e6a262-ca6e-47bc-bd77-76197f731a13": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/howWeDoItPhoto.png",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "ad562491-5aca-4dc0-b2c8-9d4ee6d865fa": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/howWeDoItPhoto.png",
+              "width": "33%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "ddf028c8-ed4e-412d-8ca7-401c23a748e5",
+          "732f6fc9-da22-4867-bfa6-faf64dec3f34",
+          "945a64f5-7d3f-40d3-b1bd-0008e73c9e00",
+          "47dc7cc9-92f6-4b50-934a-bda5bf9fd78f",
+          "d5860cc9-24b3-4082-9564-3c6d71a03759",
+          "99c8e303-aa85-4851-bba0-121425c29ed7",
+          "7b90c0a8-4f14-4e96-87c1-6b363c1e8189",
+          "505f8e07-cdc8-47cb-bf15-91265f7feb4e",
+          "36e6a262-ca6e-47bc-bd77-76197f731a13",
+          "ad562491-5aca-4dc0-b2c8-9d4ee6d865fa"
+        ],
         "settings": {
-          "title": "Custom content"
+          "title": ""
         }
       },
       "hero-about-1": {
@@ -636,6 +702,105 @@
         "block_order": [
           "0ed534a2-9aae-412d-a328-e86780d11ce0",
           "e95d06e8-9429-4534-aa8f-f629fbf8fceb"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "custom-content-archives-1": {
+        "type": "custom-content-archives-1",
+        "blocks": {
+          "825dd255-1a4d-41d2-9b56-6f65bfd1989e": {
+            "type": "text",
+            "settings": {
+              "title": "Common Moon Archives",
+              "text": "<p>Welcome to our archives where you can find all of our current and previous collections!<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          },
+          "4e5c80aa-bb47-431b-ba0d-042ae2aaa53d": {
+            "type": "html",
+            "settings": {
+              "code": "<h3 style=\"margin-bottom:10px;\">All My Homies Collection<\/h3>\n<p style=\"margin:0;\">Winter 2021<\/p>\n<a href=\"https:\/\/commonmoon.org\/collections\/all-my-homies-collection\" class=\"btn hero__btn-about-bottom btn--small\">View Now<\/a>",
+              "width": "33%"
+            }
+          },
+          "1b67e2f3-fb2d-4c96-969e-49338199eae3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/CT.H.2.png",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "cac43058-4323-45e8-9eb8-bdbbac36f17c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Image_from_iOS_13.jpg",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "d1da4aee-16b2-473d-8163-06bb7ab6ec02": {
+            "type": "html",
+            "settings": {
+              "code": "<h3 style=\"margin-bottom:10px;\">Sahara Studios x Common Moon<\/h3>\n<p style=\"margin:0;\">Summer 2020<\/p>\n<a href=\"https:\/\/commonmoon.org\/collections\/saharastudios-collaboration\" class=\"btn hero__btn-about-bottom btn--small\">View Now<\/a>",
+              "width": "33%"
+            }
+          },
+          "b685e945-88b2-4180-9b5e-b2952f2f4368": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/frankie.DS.back_2.png",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "aa557f5a-1330-47b5-94a7-ad1706f4c79d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/howWeDoItPhoto.png",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "2377f45c-2644-4184-bc6f-b9fb6a56382c": {
+            "type": "html",
+            "settings": {
+              "code": "<h3 style=\"margin-bottom:10px;\">Cherry Blossom Collection<\/h3>\n<p style=\"margin:0;\">Fall 2017<\/p>\n<a href=\"https:\/\/commonmoon.org\/collections\/cherry-blossom-collection\" class=\"btn hero__btn-about-bottom btn--small\">View Now<\/a>",
+              "width": "33%"
+            }
+          },
+          "eba2e078-3b5a-47eb-b9bc-136efcc628e0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PBTC-0415_copy.jpg",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "0b3ae248-7e85-40df-ba76-c2ce5dc2807e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PBTC-0426_copy.jpg",
+              "width": "33%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "825dd255-1a4d-41d2-9b56-6f65bfd1989e",
+          "4e5c80aa-bb47-431b-ba0d-042ae2aaa53d",
+          "1b67e2f3-fb2d-4c96-969e-49338199eae3",
+          "cac43058-4323-45e8-9eb8-bdbbac36f17c",
+          "d1da4aee-16b2-473d-8163-06bb7ab6ec02",
+          "b685e945-88b2-4180-9b5e-b2952f2f4368",
+          "aa557f5a-1330-47b5-94a7-ad1706f4c79d",
+          "2377f45c-2644-4184-bc6f-b9fb6a56382c",
+          "eba2e078-3b5a-47eb-b9bc-136efcc628e0",
+          "0b3ae248-7e85-40df-ba76-c2ce5dc2807e"
         ],
         "settings": {
           "title": ""
