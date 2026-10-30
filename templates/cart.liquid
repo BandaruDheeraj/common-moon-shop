@@ -4,7 +4,7 @@
 
 
 
-{% assign collection = collections.last-minute-checkout-items' %}
+{% assign collection = collections.last-minute-checkout-items %}
 {% case section.settings.grid %}
   {% when 2 %}
     {%- assign max_height = 530 -%}
@@ -25,3 +25,13 @@
 
 
 {% section 'cart-template' %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% assign collection = collections.last-minute-checkout-items' %}"
+  to: "{% assign collection = collections.last-minute-checkout-items %}"
+  position: 124..188
+{% endcomment %}
